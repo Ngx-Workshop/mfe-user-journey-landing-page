@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 
 @Component({
-  selector: 'ngx-seed-mfe',
+  selector: 'ngx-landing-page-mfe',
   imports: [MatButtonModule],
   template: `
     <h1>Welcome to {{ title }}!</h1>
@@ -11,7 +11,7 @@ import { MatButtonModule } from '@angular/material/button';
   styles: [],
 })
 export class App {
-  protected title = 'ngx-seed-mfe';
+  protected title = 'ngx-landing-page-mfe';
 }
 
 // 👇 **IMPORTANT FOR DYMANIC LOADING**

@@ -4,7 +4,7 @@ const {
 } = require('@angular-architects/module-federation/webpack');
 
 module.exports = withModuleFederationPlugin({
-  name: 'ngx-seed-mfe',
+  name: 'ngx-landing-page-mfe',
   filename: 'remoteEntry.js',
 
   exposes: {
