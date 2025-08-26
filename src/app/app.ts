@@ -7,7 +7,6 @@ import { RouterModule } from '@angular/router';
   imports: [RouterModule, MatButtonModule, MatIconModule],
   template: `
     <header
-      focusOnNavigation
       class="header-background"
       aria-label="Get started"
       id="homepage-header"
