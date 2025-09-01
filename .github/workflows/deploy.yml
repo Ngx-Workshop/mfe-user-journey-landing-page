@@ -1,4 +1,4 @@
-name: Deploy Ngx-LandingPage-MFE to DO Droplet
+name: Deploy MFE User Journey Landing Page to DO Droplet
 
 on:
   push:
@@ -29,8 +29,8 @@ jobs:
           host: ${{ secrets.DROPLET_IP }}
           username: root
           key: ${{ secrets.SSH_PRIVATE_KEY }}
-          source: 'dist/ngx-landing-page-mfe/*'
-          target: '/opt/ngx-angular-shell/remotes/ngx-landing-page-mfe/'
+          source: 'dist/mfe-user-journey-landing-page/*'
+          target: '/opt/mfe-remotes/mfe-user-journey-landing-page/'
           strip_components: 2
 
       - name: SSH and reload Nginx (optional)
