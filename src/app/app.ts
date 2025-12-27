@@ -14,7 +14,7 @@ import { RouterModule } from '@angular/router';
       <div class="header-section">
         <div class="header-headline">
           <h1>Ngx-Workshop</h1>
-          <h2>Workshops for Angular, RxJS, and Nest</h2>
+          <h2>Workshops for Angular, RxJS, and NestJs</h2>
         </div>
         <!-- <div class="header-start">
       <a mat-raised-button color="accent" routerLink="/404">Get started</a>
